@@ -7,5 +7,5 @@ setup(
     author="Theo Sherry",
     author_email="sherr.theo@gmail.com",
     license="MIT",
-    packages=["theopy3"],
+    packages=["theopy3", "script_helpers"],
     zip_safe=False)
