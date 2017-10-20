@@ -8,4 +8,5 @@ setup(
     author_email="sherr.theo@gmail.com",
     license="MIT",
     packages=["theopy3", "theopy3.script_helpers"],
+    install_requires=["colorama"],
     zip_safe=False)
