@@ -1,7 +1,11 @@
+import sys
 from colorama import Back, Fore
 
 def print_error(error_msg):
     print(Back.RED + "  ERROR  "  + Back.RESET + " " + error_msg)
+
+def print_input_prompt(prompt_msg, prompt):
+    sys.stdout.write(Back.CYAN + "  Input required  " + Back.RESET + " " + prompt_msg + prompt)
 
 class Task:
     """
