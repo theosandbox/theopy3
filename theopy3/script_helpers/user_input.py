@@ -1,6 +1,5 @@
 import sys
-
-from theopy3.script_helpers import feedback
+import feedback
 
 def get_user_confirmation(question, default="yes"):
     """Ask a yes/no question via input() and return their answer.
